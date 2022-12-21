@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    
+}
+
+.header {
+    flex: 1;
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    
+    margin: 0;
+    padding: 10px 120px;
+}
+
+.header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    flex: 1;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+}
+
+li, .left .sec {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    margin: 0;
+    padding: 50px 120px;
+    gap: 10px;
+}
+
+.left .main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.right img {
+    width: 350px;
+    height: 200px;
+}
+
+.upper {
+    background-color: #3882F6;
+    margin-top: 10px;
+    padding: 5px 20px;
+    border-radius: 6px;
+    border: 0;
+    font-weight: 700;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 40px;
+}
+
+.illustration img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.illustration {
+    flex: 1;
+    max-width: 150px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.quote {
+    padding: 70px 180px;
+    background: #E5E7EB;
+}
+
+.quote .text {
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 400;
+    color: #1F2937;
+}
+
+.quote .sign {
+    font-weight: 700;
+    text-align: right;
+    padding-top: 15px;
+}
